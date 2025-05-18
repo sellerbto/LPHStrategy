@@ -1,0 +1,15 @@
+[project]
+name = "defi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.38.16",
+    "catboost>=1.2.8",
+    "dotenv>=0.9.9",
+    "fractal-defi>=1.2.1",
+    "jupyter>=1.1.1",
+    "loguru>=0.7.3",
+    "notebook>=7.4.2",
+]
